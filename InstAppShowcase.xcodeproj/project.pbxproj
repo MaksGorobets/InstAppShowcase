@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E98481422B0FA3D300188B7D /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98481412B0FA3D300188B7D /* MoonshotApp.swift */; };
+		E98481422B0FA3D300188B7D /* InstAppShowcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98481412B0FA3D300188B7D /* InstAppShowcase.swift */; };
 		E98481442B0FA3D300188B7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98481432B0FA3D300188B7D /* ContentView.swift */; };
 		E98481462B0FA3D500188B7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98481452B0FA3D500188B7D /* Assets.xcassets */; };
 		E98481492B0FA3D500188B7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98481482B0FA3D500188B7D /* Preview Assets.xcassets */; };
 		E98481502B0FD4B100188B7D /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E984814F2B0FD4B100188B7D /* ProfilePageView.swift */; };
+		E9DDCDA62B276CE00056279F /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DDCDA52B276CE00056279F /* MessagesView.swift */; };
+		E9DDCDA82B27750D0056279F /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DDCDA72B27750D0056279F /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E984813E2B0FA3D300188B7D /* InstAppShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstAppShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E98481412B0FA3D300188B7D /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
+		E98481412B0FA3D300188B7D /* InstAppShowcase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstAppShowcase.swift; sourceTree = "<group>"; };
 		E98481432B0FA3D300188B7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E98481452B0FA3D500188B7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E98481482B0FA3D500188B7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E984814F2B0FD4B100188B7D /* ProfilePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageView.swift; sourceTree = "<group>"; };
+		E9DDCDA52B276CE00056279F /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		E9DDCDA72B27750D0056279F /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +57,11 @@
 		E98481402B0FA3D300188B7D /* InstAppShowcase */ = {
 			isa = PBXGroup;
 			children = (
-				E98481412B0FA3D300188B7D /* MoonshotApp.swift */,
+				E9DDCDA72B27750D0056279F /* ChatView.swift */,
+				E98481412B0FA3D300188B7D /* InstAppShowcase.swift */,
 				E984814F2B0FD4B100188B7D /* ProfilePageView.swift */,
 				E98481432B0FA3D300188B7D /* ContentView.swift */,
+				E9DDCDA52B276CE00056279F /* MessagesView.swift */,
 				E98481452B0FA3D500188B7D /* Assets.xcassets */,
 				E98481472B0FA3D500188B7D /* Preview Content */,
 			);
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9DDCDA62B276CE00056279F /* MessagesView.swift in Sources */,
 				E98481442B0FA3D300188B7D /* ContentView.swift in Sources */,
+				E9DDCDA82B27750D0056279F /* ChatView.swift in Sources */,
 				E98481502B0FD4B100188B7D /* ProfilePageView.swift in Sources */,
-				E98481422B0FA3D300188B7D /* MoonshotApp.swift in Sources */,
+				E98481422B0FA3D300188B7D /* InstAppShowcase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +284,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InstAppShowcase/Preview Content\"";
+				DEVELOPMENT_TEAM = XUYF93872P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InstAppShowcase/Preview Content\"";
+				DEVELOPMENT_TEAM = XUYF93872P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
